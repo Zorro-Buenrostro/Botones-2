@@ -1,0 +1,47 @@
+body {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  padding-top: 50px;
+  background: linear-gradient(135deg, #a8edea, #fed6e3);
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  border: none;
+  background-color: #4e89ae;
+  color: white;
+  padding: 20px 35px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: transform 0.2s, background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #43658b;
+  transform: scale(1.1);
+}
+
+.mensaje {
+  margin-top: 40px;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #2f4858;
+  transition: opacity 0.3s ease-in-out;
+}
